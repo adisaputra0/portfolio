@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adi Saputra</title>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+  <!-- lightbox -->
+  <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./img/bussiness-man.png" type="image/x-icon">
+</head>
+
+<body class="bg-white">
+  <nav class="bg-white lg:bg-transparent backdrop-blur-lg border-gray-200 dark:bg-gray-900 fixed w-full z-20 shadow-sm">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span
+          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-700">AdiSaputra</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#about"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#skills"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+          </li>
+          <li>
+            <a href="#awards"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Awards</a>
+          </li>
+          <li>
+            <a href="#projects"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <div id="home">
+    <div class="w-full h-[100vh] flex justify-center items-end border-b-2 bg-white">
+      <div class="flex md:static">
+        <div class="grid grid-rows-3 px-2">
+          <div class="row-span-2 hidden justify-center items-end flex-col md:flex">
+            <div class="flex flex-col justify-center">
+              <a href="#skills"
+                class="self-start text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-700">
+                Skills
+              </a>
+              <a href="#skills" class="self-start text-1xl font-semibold whitespace-nowrap dark:text-white">
+                Laravel, Vue, Tailwind..
+              </a>
+            </div>
+            <img src="./img/left-arrow.png" alt="" width="100px" class="h-20 ml-0" />
+          </div>
+          <div class="row-span-1"></div>
+        </div>
+        <img src="./img/adisaputra.png" alt="" class="md:w-full" />
+        <div class="grid grid-rows-3 px-2 absolute md:static bottom-0">
+          <div class="flex md:block justify-end items-end row-span-2 md:row-span-1">
+            <div class="flex flex-col justify-center">
+              <a href="#about" class="self-end text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-700">
+                I Putu Adi Saputra
+              </a>
+              <a href="#about" class="self-end text-1xl font-semibold whitespace-nowrap dark:text-white">
+                Web Developer | Student
+              </a>
+            </div>
+            <img src="./img/left-arrow.png" alt="" width="100px"
+              class="h-20 custom-rotate-arrow rotate-[260deg] translate-x-[-10px] translate-y-[-20px] md:[transform:rotateY(180deg)]" />
+          </div>
+          <div class="row-span-2 hidden md:flex justify-center flex-col">
+            <img src="./img/left-arrow.png" alt="" width="100px" class="h-20"
+              style="transform: rotateY(180deg) rotateX(180deg)" />
+            <div class="flex flex-col justify-center">
+              <a href="#awards" class="self-end text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-700">
+                Awards
+              </a>
+              <a href="#awards" class="self-end text-1xl font-semibold whitespace-nowrap dark:text-white">
+                Medallion for Excellence
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div id="about" class="w-full py-24 box-border relative border-b-2 bg-white px-2 md:px-0">
+    <h2 class="self-end text-3xl font-semibold whitespace-nowrap text-center border-b-2 w-max mx-auto">
+      About
+    </h2>
+
+    <div class="flex mt-10 gap-5 justify-center flex-wrap">
+      <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="./img/smk.jpg" data-lightbox="about-set" data-title="SMK Negeri 1 Denpasar">
+          <img class="rounded-t-lg w-full lg:h-[300px]" src="./img/smk.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            About Me
+          </h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+            Welcome to my portfolio! I am I Putu Adi Saputra, a student
+            focusing on learning Web Development. With an educational
+            background from SMKN 1 Denpasar, I have gained strong knowledge
+            and skills in the field of Web Development, especially in backend
+            development.
+          </p>
+        </div>
+      </div>
+      <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="./img/lksn.jpg" data-lightbox="about-set" data-title="Lomba Keterampilan Siswa Nasional">
+          <img class="rounded-t-lg w-full lg:h-[300px]" src="./img/lksn.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            My Experience
+          </h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+            The participation in the 2023 National Student Competition in Web Technology was a special moment for me.
+            There, I found new friends and experienced healthy competition. Finally, I received a medallion for
+            excellence. It was truly a proud outcome of
+            hard work!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div id="skills" class="w-full py-24 box-border relative border-b-2 bg-white">
+    <h2 class="self-end text-3xl font-semibold whitespace-nowrap text-center border-b-2 w-max mx-auto">
+      Skills
+    </h2>
+
+    <div class="flex mt-10 gap-5 justify-center flex-wrap">
+      <a href="https://www.mysql.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/MySQL.png"
+          alt="" />
+      </a>
+      <a href="https://www.laravel.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/laravel.jpg"
+          alt="" />
+      </a>
+      <a href="https://vuejs.org/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/vue.png"
+          alt="" />
+      </a>
+      <a href="https://getbootstrap.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/bootstrap.png"
+          alt="" />
+      </a>
+      <a href="https://tailwindcss.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/tailwind.png"
+          alt="" />
+      </a>
+      <a href="https://wordpress.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/wordpress.png"
+          alt="" />
+      </a>
+      <a href="https://git-scm.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/git.png"
+          alt="" />
+      </a>
+      <a href="https://www.figma.com/"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative p-5 box-border">
+        <img class="rounded-t-lg object-contain w-[100px] h-[50px] md:w-[200px] md:h-[150px]" src="./img/figma.png"
+          alt="" />
+      </a>
+    </div>
+  </div>
+
+  <!-- Awards -->
+  <div id="awards" class="w-full py-24 box-border relative border-b-2 bg-white px-2 md:px-0">
+    <h2 class="self-end text-3xl font-semibold whitespace-nowrap text-center border-b-2 w-max mx-auto">
+      Awards
+    </h2>
+
+    <div class="flex mt-10 gap-5 justify-center flex-wrap">
+      <a href="./img/Web_Technologies.jpg" data-lightbox="awards-set" data-title="Finalis Web Technologies"
+        class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative box-border">
+        <img class="rounded-t-lg w-full" src="./img/Web_Technologies.jpg" alt="" />
+      </a>
+      <a href="./img/Medallion_for_Excellence.jpg" data-lightbox="awards-set" data-title="Medallion for Excellence"
+        class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative box-border">
+        <img class="rounded-t-lg w-full" src="./img/Medallion_for_Excellence.jpg" alt="" />
+      </a>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div id="projects" class="w-full py-24 box-border relative bg-white px-2 md:px-0">
+    <h2 class="self-end text-3xl font-semibold whitespace-nowrap text-center border-b-2 w-max mx-auto">
+      Projects
+    </h2>
+
+    <div class="flex mt-10 gap-5 justify-center flex-wrap">
+
+      <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="./img/visuverse.png" data-lightbox="projects-set" data-title="Visuverse">
+          <img class="rounded-t-lg" src="./img/visuverse.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="https://github.com/adisaputra0/visuverse">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Visuverse</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+            Visuverse is a website that I developed using Laravel as the backend (Restful API) and Vue as the frontend.
+            It's a virtual pinboard platform for uploading and organizing images into various categories, such as "food
+            and drink," curating collections of food and beverage images within a wide visual space.
+          </p>
+          <a href="https://github.com/adisaputra0/visuverse"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="./img/skensapilketos.png" data-lightbox="projects-set" data-title="Skensa Pilketos">
+          <img class="rounded-t-lg" src="./img/skensapilketos.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="https://github.com/adisaputra0/skensapilketos">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Skensa Pilketos</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+            The student council president selection platform at SMKN 1 Denpasar, known as skensapilketos, has been
+            developed by a team composed of two individuals. In this project, I focused on developing the backend
+            system, while my colleague was responsible for the website's design and appearance.
+          </p>
+          <a href="https://github.com/adisaputra0/skensapilketos"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="./img/playselects.png" data-lightbox="projects-set" data-title="PlaySelects">
+          <img class="rounded-t-lg" src="./img/playselects.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="https://github.com/adisaputra0/playselects">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PlaySelects</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
+            PlaySelects, the website I developed using WordPress. I created the "PlaySelectsV1" template from
+            blankslate. The concept combines "Play" and "Selects," providing a space to discover selected games with
+            handpicked recommendations tailored to user preferences for an enjoyable gaming experience.
+          </p>
+          <a href="https://github.com/adisaputra0/playselects"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="w-full py-5 box-border relative bg-black text-white shadow-sm">
+    <div class="flex gap-5 items-center justify-center">
+      <div class="flex gap-5">
+        <a href="mailto:putuadi208@gmail.com" class="text-2xl md:text-3xl tracking-tight transition-all ease-in">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/+6283847406501" class="text-2xl md:text-3xl tracking-tight transition-all ease-in">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/adisaputra5944/"
+          class="text-2xl md:text-3xl tracking-tight transition-all ease-in">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/adisaputra0/" class="text-2xl md:text-3xl tracking-tight transition-all ease-in">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <h6 class="text-1xl text-center mt-2">Created by - Adi Saputra</h6>
+  </div>
+
+
+  <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+  <script type="module" src="./js/flowbite.js"></script>
+</body>
+
+</html>
