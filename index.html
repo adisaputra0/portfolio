@@ -59,14 +59,18 @@
             <h1 class="text-center fs-md-7-cs">I PUTU ADI <br> SAPUTRA</h1>
             <h3 class="fs-md-2-cs">Web Developer | Student</h3>
             <div class="d-flex justify-content-center align-items-center mt-md-4 gap-4 actionMouse">
-                <i class="fa-regular fa-envelope fs-3 hover-up cursor-pointer" onclick="toEmail()"></i>
-                <i class="fa-brands fa-whatsapp fs-3 hover-up cursor-pointer" onclick="toWhatsapp()"></i>
-                <i class="fa-brands fa-instagram fs-3 hover-up cursor-pointer" onclick="toInstagram()"></i>
-                <i class="fa-brands fa-github fs-3 hover-up cursor-pointer" onclick="toGithub()"></i>
+                <i class="fa-regular fa-envelope fs-3 hover-up cursor-pointer"
+                    onclick="goToOpen('mailto:putuadi208@gmail.com')"></i>
+                <i class="fa-brands fa-whatsapp fs-3 hover-up cursor-pointer"
+                    onclick="goToOpen('https://wa.me/+6283847406501')"></i>
+                <i class="fa-brands fa-instagram fs-3 hover-up cursor-pointer"
+                    onclick="goToOpen('https://www.instagram.com/adisaputra5944/')"></i>
+                <i class="fa-brands fa-github fs-3 hover-up cursor-pointer"
+                    onclick="goToOpen('https://github.com/adisaputra0/')"></i>
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-end w-100 actionMouse" style="height: 100vh;"
-            onclick="toImage()">
+            onclick="goTo('#image')">
             <i class="fa-solid fa-chevron-down hover-up cursor-pointer z-2 p-5"></i>
         </div>
         <div class="d-flex justify-content-center align-items-end w-100" style="height: 100vh;" id="image">

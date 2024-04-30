@@ -9,27 +9,12 @@ const title = document.querySelector(".title");
 const hoverMenu = document.querySelectorAll(".hover-menu");
 const actionMouse = document.querySelectorAll(".actionMouse");
 
-function toEmail(){
-    window.open("mailto:putuadi208@gmail.com");
-};
-function toWhatsapp(){
-    window.open("https://wa.me/+6283847406501");
-};
-function toInstagram(){
-    window.open("https://www.instagram.com/adisaputra5944/");
-};
-function toGithub(){
-    window.open("https://github.com/adisaputra0/");
-};
-
-
 function goTo(link){
     window.location.href=link;
 };
-
-function toImage(){
-    window.location.href="#image";
-}
+function goToOpen(link){
+    window.open(link);
+};
 
 //Position and Speed
 let positionX = 15;

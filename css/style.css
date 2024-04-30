@@ -135,7 +135,7 @@
     opacity: 70% !important;
 }
 
-/* Tablet */
+/* Laptop */
 @media screen and (min-width: 750px) {
     .fs-md-7-cs{
         font-size: 6rem;
@@ -146,7 +146,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .fs-sm-35-cs{
         font-size: 3.5rem !important;
     }
