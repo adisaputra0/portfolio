@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi Saputra</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dynalight&family=Elsie+Swash+Caps:wght@400;900&family=Emilys+Candy&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-dark-custom text-white-custom cursor-none">
+
+    <header class="dynalight-regular">
+        <nav class="position-fixed z-3 w-100">
+            <div class="row w-100 p-4">
+                <div class="col-6">
+                    <h4 class="actionMouse px-3 hover-up title cursor-pointer" onclick="goTo('/')">
+                        Adi
+                        <br>* Saputra
+                    </h4>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex justify-content-end align-items-start h-100 actionMouse px-3 pt-3 hover-up cursor-pointer"
+                        onclick="actionNav()">
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-1 z-5">
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar1 transition-ease-custom"></span>
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar2 transition-ease-custom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="emilys-candy-regular transition-ease-custom">
+        <div class="position-fixed w-100 d-flex flex-column align-items-center justify-content-center mt-md-3"
+            style="height: 100vh;">
+            <h1 class="text-center fs-md-7-cs">I PUTU ADI <br> SAPUTRA</h1>
+            <h3 class="fs-md-2-cs">Web Developer | Student</h3>
+            <div class="d-flex justify-content-center align-items-center mt-md-4 gap-4 actionMouse">
+                <i class="fa-regular fa-envelope fs-3 hover-up cursor-pointer" onclick="toEmail()"></i>
+                <i class="fa-brands fa-whatsapp fs-3 hover-up cursor-pointer" onclick="toWhatsapp()"></i>
+                <i class="fa-brands fa-instagram fs-3 hover-up cursor-pointer" onclick="toInstagram()"></i>
+                <i class="fa-brands fa-github fs-3 hover-up cursor-pointer" onclick="toGithub()"></i>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-end w-100 actionMouse" style="height: 100vh;"
+            onclick="toImage()">
+            <i class="fa-solid fa-chevron-down hover-up cursor-pointer z-2 p-5"></i>
+        </div>
+        <div class="d-flex justify-content-center align-items-end w-100" style="height: 100vh;" id="image">
+            <img src="img/adisaputra.png" alt="" class="z-1">
+        </div>
+    </main>
+
+    <!-- Mouse -->
+    <div class="mouse d-none d-md-inline"></div>
+
+
+    <div class="position-fixed w-100 d-flex flex-column gap-2 align-items-center justify-content-center bg-white-custom emilys-candy-regular"
+        style="height: 100vh; top: -1000px; transition: all 1s ease;" id="main-nav">
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('about.html')">
+            ABOUT
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('skills.html')">SKILLS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('awards.html')">AWARDS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('projects.html')">PROJECTS
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src=" bootstrap/js/bootstrap.bundle.min.js"> </script>
+
+    <!-- Custom Javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

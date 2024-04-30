@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi Saputra - Projects</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dynalight&family=Elsie+Swash+Caps:wght@400;900&family=Emilys+Candy&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-dark-custom text-white-custom cursor-none">
+
+    <header class="dynalight-regular">
+        <nav class="position-fixed z-3 w-100">
+            <div class="row w-100 p-4">
+                <div class="col-6">
+                    <h4 class="actionMouse px-3 hover-up cursor-pointer title" onclick="goTo('/')">
+                        Adi
+                        <br>* Saputra
+                    </h4>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex justify-content-end align-items-start h-100 actionMouse px-3 pt-3 hover-up cursor-pointer"
+                        onclick="actionNav()">
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-1 z-5">
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar1 transition-ease-custom"></span>
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar2 transition-ease-custom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="emilys-candy-regular transition-ease-custom">
+        <div class="w-100 d-flex flex-column align-items-center justify-content-center mt-md-3"
+            style="height: max-content; padding-top: 150px;">
+            <h1 class="fs-md-7-cs fs-sm-15-cs">PROJECTS</h1>
+            <hr style="width:90%;">
+            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px">
+                <h1 class="fs-md-7-cs fs-sm-15-cs">VISUVERSE</h1>
+                <h4>Laravel - Vue</h4>
+                <img src="img/visuverse.png" alt="" width="50%"
+                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
+                <img src="img/visuverse.png" alt="" width="80%" class="d-inline d-md-none rounded">
+            </div>
+            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px">
+                <h1 class="fs-md-7-cs fs-sm-15-cs">SKENSOS</h1>
+                <h4>Laravel</h4>
+                <img src="img/skensapilketos.png" alt="" width="50%"
+                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
+                <img src="img/skensapilketos.png" alt="" width="80%" class="d-inline d-md-none rounded">
+            </div>
+            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px">
+                <h1 class="fs-md-7-cs fs-sm-15-cs">PLAYSELECTS</h1>
+                <h4>Wordpress</h4>
+                <img src="img/playselects.png" alt="" width="50%"
+                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
+                <img src="img/playselects.png" alt="" width="80%" class="d-inline d-md-none rounded">
+            </div>
+        </div>
+    </main>
+
+    <!-- Mouse -->
+    <div class="mouse d-none d-md-inline"></div>
+
+
+    <div class="position-fixed w-100 d-flex flex-column gap-2 align-items-center justify-content-center bg-white-custom emilys-candy-regular"
+        style="height: 100vh; top: -1000px; transition: all 1s ease;" id="main-nav">
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('about.html')">
+            ABOUT
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('skills.html')">SKILLS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('awards.html')">AWARDS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('projects.html')">PROJECTS
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src=" bootstrap/js/bootstrap.bundle.min.js"> </script>
+
+    <!-- Custom Javascript -->
+    <script src="js/script.js"></script>
+    <script src="js/project.js"></script>
+    <script src="js/corousel.js"></script>
+</body>
+
+</html>

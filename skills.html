@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi Saputra - Skills</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dynalight&family=Elsie+Swash+Caps:wght@400;900&family=Emilys+Candy&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-dark-custom text-white-custom cursor-none">
+
+    <header class="dynalight-regular">
+        <nav class="position-fixed z-3 w-100">
+            <div class="row w-100 p-4">
+                <div class="col-6">
+                    <h4 class="actionMouse px-3 hover-up cursor-pointer title" onclick="goTo('/')">
+                        Adi
+                        <br>* Saputra
+                    </h4>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex justify-content-end align-items-start h-100 actionMouse px-3 pt-3 hover-up cursor-pointer"
+                        onclick="actionNav()">
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-1 z-5">
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar1 transition-ease-custom"></span>
+                            <span style="height: 3px; width: 15px;"
+                                class="rounded bg-white-custom bar2 transition-ease-custom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="emilys-candy-regular transition-ease-custom">
+        <div class="d-flex justify-content-center align-items-center flex-column gap-5" style="height: 100vh;">
+            <h1 class="fs-md-7-cs fs-sm-15-cs">MY SKILLS</h1>
+            <div class="container">
+                <div class="row gap-3 gap-md-5 justify-content-center align-items-center">
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/bootstrap-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://getbootstrap.com/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">BOOTSTRAP</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/git-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://git-scm.com/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">GIT</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/laravel-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://laravel.com/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">LARAVEL</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/vue-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">VUE</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/wordpress-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://vuejs.org/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">WORDPRESS</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/Vector.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://wordpress.com/id/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">MYSQL</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/tailwind-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://tailwindcss.com/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">TAILWIND</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-3 col-md-2  border-white-custom rounded p-2 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/figma-f 1.png" alt="" class="object-fit-contain wh-5rem wh-sm-3rem">
+                        <div class="position-absolute bg-white-custom top-0 left-0 w-100 d-flex justify-content-center align-items-center opacity-0 hover-opacity-100 transition-ease-custom cursor-pointer actionMouse"
+                            onclick="goTo('https://www.figma.com/')" style=" height: 100%;">
+                            <h4 class="text-dark-custom fs-sm-08-cs">FIGMA</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Mouse -->
+    <div class="mouse d-none d-md-inline"></div>
+
+
+    <div class="position-fixed w-100 d-flex flex-column gap-2 align-items-center justify-content-center bg-white-custom emilys-candy-regular"
+        style="height: 100vh; top: -1000px; transition: all 1s ease;" id="main-nav">
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('about.html')">
+            ABOUT
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('skills.html')">SKILLS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('awards.html')">AWARDS
+        </div>
+        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
+            style="font-size: 5rem;" onclick="goTo('projects.html')">PROJECTS
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src=" bootstrap/js/bootstrap.bundle.min.js"> </script>
+
+    <!-- Custom Javascript -->
+    <script src="js/script.js"></script>
+    <script src="js/corousel.js"></script>
+</body>
+
+</html>
