@@ -2,149 +2,400 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Adi Saputra - Projects</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Dynalight&family=Elsie+Swash+Caps:wght@400;900&family=Emilys+Candy&display=swap"
-        rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="lightbox2/css/lightbox.min.css">
+    <link href="select2/css/select2.min.css" rel="stylesheet" />
 </head>
 
-<body class="bg-dark-custom text-white-custom cursor-none">
-
-    <header class="dynalight-regular">
-        <nav class="position-fixed z-3 w-100">
-            <div class="row w-100 p-4">
-                <div class="col-6">
-                    <h4 class="actionMouse px-3 hover-up cursor-pointer title" onclick="goTo('/')">
-                        Adi
-                        <br>* Saputra
-                    </h4>
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3" data-aos="fade">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Adi
+                        Saputra</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="col-6">
-                    <div class="d-flex justify-content-end align-items-start h-100 actionMouse px-3 pt-3 hover-up cursor-pointer"
-                        onclick="actionNav()">
-                        <div class="d-flex flex-column justify-content-center align-items-center gap-1 z-5">
-                            <span style="height: 3px; width: 15px;"
-                                class="rounded bg-white-custom bar1 transition-ease-custom"></span>
-                            <span style="height: 3px; width: 15px;"
-                                class="rounded bg-white-custom bar2 transition-ease-custom"></span>
+            </div>
+        </nav>
+        <!-- Projects Section-->
+        <section class="py-5">
+            <div class="container mb-5">
+                <div class="text-center mb-5" data-aos="fade-down">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/animeindex.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Anime Index">
+                                        <img class="hover-zoom-img" src="assets/animeindex.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Anime Index</h2>
+                                        <p class="text-justify">
+                                            Anime Index is your go-to resource for everything anime and manga. Discover
+                                            your next favorite show, track your watchlist, explore character details,
+                                            and stay updated on the latest releases. Click the "website icon" below to
+                                            dive in.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://animeindex.vercel.app/"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-globe fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://tailwindcss.com/" class="hover-up">
+                                                    <i class="fa-brands fa-css3-alt fs-4 text-primary"></i>
+                                                </a>
+                                                <a target="_blank" href="https://react.dev/" class="hover-up">
+                                                    <i class="fa-brands fa-react fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/gojosatoru.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Gojo Satoru">
+                                        <img class="hover-zoom-img" src="assets/gojosatoru.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Gojo Satoru</h2>
+                                        <p class="text-justify">
+                                            Gojo Satoru Website is a fan-made site dedicated to the popular Jujutsu
+                                            Kaisen character, Gojo Satoru. Explore his biography, powers, relationships,
+                                            and media appearances. Curious to learn more? Click the "website icon" below
+                                            to visit.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://gojosatoru-zeta.vercel.app/"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-globe fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://tailwindcss.com/" class="hover-up">
+                                                    <i class="fa-brands fa-css3-alt fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/khodamweb.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Khodam Web">
+                                        <img class="hover-zoom-img" src="assets/khodamweb.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Khodam Web</h2>
+                                        <p class="text-justify">
+                                            Are you a weeb curious about your Anime Khodam? Check out Khodam Web, my fun
+                                            little project inspired by "Cek Khodam". Click the website icon below to
+                                            find out which anime character is your spiritual guardian. Remember, it's
+                                            just for laughs!
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://check-anime-khodam.vercel.app/"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-globe fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://react.dev/" class="hover-up">
+                                                    <i class="fa-brands fa-react fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/trafficgame.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Traffic Game">
+                                        <img class="hover-zoom-img" src="assets/trafficgame.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Traffic Game</h2>
+                                        <p class="text-justify">
+                                            Traffic Game is a website I created as a challenge with a friend. Enjoyable
+                                            on both tablets and PCs, this game offers a simple yet engaging experience.
+                                            Curious? Click the "website icon" below to play.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://trafficgame.vercel.app/"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-globe fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://react.dev/" class="hover-up">
+                                                    <i class="fa-brands fa-react fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/visuverse.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Visuverse">
+                                        <img class="hover-zoom-img" src="assets/visuverse.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Visuverse</h2>
+                                        <p class="text-justify">
+                                            Visuverse is a website I developed independently using Laravel for the
+                                            backend (RESTful API) and Vue for the frontend. Combining "visual" and
+                                            "universe," Visuverse offers a vast digital space where users can discover
+                                            diverse images. The platform enables users to upload and categorize photos,
+                                            similar to Pinterest. Want to see the code? Click the GitHub icon below.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://github.com/adisaputra0/visuverse"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-github fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://vuejs.org/" class="hover-up">
+                                                    <i class="fa-brands fa-vuejs fs-4 text-success"></i>
+                                                </a>
+                                                <a target="_blank" href="https://laravel.com/" class="hover-up">
+                                                    <i class="fa-brands fa-laravel fs-4 text-danger"></i>
+                                                </a>
+                                                <a target="_blank" href="https://getbootstrap.com/" class="hover-up">
+                                                    <i class="fa-brands fa-bootstrap fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/skensos.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="Skensos">
+                                        <img class="hover-zoom-img" src="assets/skensos.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Skensos</h2>
+                                        <p class="text-justify">
+                                            This website was developed to facilitate the selection process for the OSIS
+                                            chairman at SMKN 1 Denpasar. A two-person team collaborated on this project,
+                                            with my role focused on developing the backend system and my partner
+                                            responsible for the website's design. Want to see the code? Click the GitHub
+                                            icon below.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://github.com/adisaputra0/skensapilketos"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-github fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://laravel.com/" class="hover-up">
+                                                    <i class="fa-brands fa-laravel fs-4 text-danger"></i>
+                                                </a>
+                                                <a target="_blank" href="https://getbootstrap.com/" class="hover-up">
+                                                    <i class="fa-brands fa-bootstrap fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " data-aos="fade-up">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center flex-column">
+                                    <a href="assets/playselects.png" data-lightbox="example-set" class="overflow-hidden"
+                                        data-title="PlaySelects">
+                                        <img class="hover-zoom-img" src="assets/playselects.png" alt=""
+                                            style="width: 100%;">
+                                    </a>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">PlaySelects</h2>
+                                        <p class="text-justify">
+                                            PlaySelects is a website I developed independently using the WordPress
+                                            platform. I created a custom template based on the "BlankSlate" theme, which
+                                            I named "PlaySelectV1." The concept behind PlaySelects is a fusion of "Play"
+                                            and "Selects," positioning the site as a platform where users can discover
+                                            top-rated game recommendations. Want to see the code? Click the GitHub icon
+                                            below.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 d-flex gap-2">
+                                                <a target="_blank" href="https://github.com/adisaputra0/playselects"
+                                                    class="hover-up text-black">
+                                                    <i class="bi bi-github fs-4"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 d-flex gap-2 justify-content-end">
+                                                <a target="_blank" href="https://wordpress.com/" class="hover-up">
+                                                    <i class="fa-brands fa-wordpress fs-4 text-primary"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <main class="emilys-candy-regular transition-ease-custom">
-        <div class="w-100 d-flex flex-column align-items-center justify-content-center mt-md-3"
-            style="height: max-content; padding-top: 150px;">
-            <h1 class="fs-md-7-cs fs-sm-15-cs">PROJECTS</h1>
-            <hr style="width:90%;">
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://animeindex.vercel.app/')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">ANIME INDEX</h1>
-                <h4>React -Tailwind</h4>
-                <img src="img/animeindex.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/animeindex.png" alt="" width="80%" class="d-inline d-md-none rounded">
+        </section>
+        <!-- Call to action section-->
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center" data-aos="fade">
+                    <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                </div>
             </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://gojosatoru-zeta.vercel.app/')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">GOJO SATORU</h1>
-                <h4>Tailwind</h4>
-                <img src="img/gojosatoru.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/gojosatoru.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://check-anime-khodam.vercel.app/')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">KHODAM WEB</h1>
-                <h4>React</h4>
-                <img src="img/check-anime-khodam.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/check-anime-khodam.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://trafficgame.vercel.app/')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">TRAFFIC GAME</h1>
-                <h4>React</h4>
-                <img src="img/trafficgame.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/trafficgame.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://github.com/adisaputra0/visuverse')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">VISUVERSE</h1>
-                <h4>Laravel - Vue</h4>
-                <img src="img/visuverse.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/visuverse.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://github.com/adisaputra0/skensapilketos')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">SKENSOS</h1>
-                <h4>Laravel</h4>
-                <img src="img/skensapilketos.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/skensapilketos.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-            <div style="padding: 200px 0px;" class="cursor-pointer w-100 text-center img-show actionMouse p-sm-50px"
-                onclick="goToOpen('https://github.com/adisaputra0/playselects')">
-                <h1 class="fs-md-7-cs fs-sm-15-cs">PLAYSELECTS</h1>
-                <h4>Wordpress</h4>
-                <img src="img/playselects.png" alt="" width="50%"
-                    class="position-fixed top-1 rounded transition-ease-custom opacity-0 img_p d-none d-md-inline">
-                <img src="img/playselects.png" alt="" width="80%" class="d-inline d-md-none rounded">
-            </div>
-        </div>
+        </section>
     </main>
-
-    <!-- Mouse -->
-    <div class="mouse d-none d-md-inline"></div>
-
-
-    <div class="position-fixed w-100 d-flex flex-column gap-2 align-items-center justify-content-center bg-white-custom emilys-candy-regular"
-        style="height: 100vh; top: -1000px; transition: all 1s ease;" id="main-nav">
-        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
-            style="font-size: 5rem;" onclick="goTo('about.html')">
-            ABOUT
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Adi Saputra 2023</div>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="index.html">Home</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="resume.html">Resume</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
-        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
-            style="font-size: 5rem;" onclick="goTo('skills.html')">SKILLS
-        </div>
-        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
-            style="font-size: 5rem;" onclick="goTo('awards.html')">AWARDS
-        </div>
-        <div class="text-dark-custom text-decoration-none hover-up cursor-pointer hover-menu w-100 text-center fs-sm-35-cs"
-            style="font-size: 5rem;" onclick="goTo('projects.html')">PROJECTS
+    </footer>
+
+    <div class="position-fixed" style="bottom: 10px; right: 10px; transition: all 0.5s ease;" id="bot"
+        onclick="openBot()">
+        <div
+            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3 hover-up cursor-pointer">
+            <i class="bi bi-robot"></i>
         </div>
     </div>
-
-    <!-- Bootstrap -->
-    <script src=" bootstrap/js/bootstrap.bundle.min.js"> </script>
-
-    <!-- Custom Javascript -->
-    <script src="js/script.js"></script>
-    <script src="js/project.js"></script>
-    <script src="js/corousel.js"></script>
+    <div class="position-fixed" style="bottom: 10px; right: -500px; transition: all 0.5s ease;" id="boardBot">
+        <div style="width: 200px; height: 300px; background-color: #d4d4d4;"
+            class="rounded border overflow-hidden shadow">
+            <div class="d-flex justify-content-center align-items-center px-2 bg-gradient-primary-to-secondary"
+                style="height: 15%; box-sizing: border-box;">
+                <div style="width: 80%;" class="text-white"><i class="bi bi-robot"></i><span
+                        class="fw-bolder ms-2">Bot</span></div>
+                <div style="width: 20%;" class="d-flex justify-content-end" onclick="closeBot()"><span
+                        class="cursor-pointer fw-bolder text-white" style="font-size: 1.3rem;"><i
+                            class="bi bi-x"></i></span></div>
+            </div>
+            <div class="w-100 overflow-auto p-2 d-flex flex-column gap-2"
+                style="height: 70%; font-size: 0.8rem; box-sizing: border-box;" id="chat">
+                <div class="d-flex justify-content-start">
+                    <div style="background-color: white; width: 90%;" class="p-2 rounded">Do you have a question?</div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div style="width: 90%;" class="p-2 rounded bg-primary text-white">Do you have
+                        a question?</div>
+                </div>
+            </div>
+            <div class="w-100 d-flex px-2 justify-content-center align-items-center border-top" style="height: 15%;">
+                <!-- <input type="text" style="width: 80%; height: 70%; font-size: 0.8rem;" class="border rounded"> -->
+                <select class="js-example-basic-single border rounded" name="state"
+                    style="width: 80% !important; height: 70% !important;" id="questionBot">
+                    <option value="1">Who are you?</option>
+                    <option value="2">Who is Adi?</option>
+                    <option value="3">Does Adi have experience in web development?</option>
+                    <option value="4">How can I contact Adi?</option>
+                </select>
+                <button
+                    class="bg-gradient-primary-to-secondary cursor-pointer rounded text-white d-flex justify-content-center align-items-center p-3 ms-2"
+                    style="width: 15%; height: 70%; box-sizing: border-box;" onclick="submitBot()"><i
+                        class="bi bi-send"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="lightbox2/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="select2/js/select2.min.js"></script>
+    <script>
+        AOS.init();
+        $(document).ready(function () {
+            $('.js-example-basic-single').select2();
+        });
+    </script>
 </body>
 
 </html>
