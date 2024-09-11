@@ -11831,6 +11831,18 @@ html {
 .select2-search__field{
   font-size: 0.8rem;
 }
+
+.grid-custom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media screen and (max-width: 800px) {
+  .grid-custom{
+    grid-template-columns: 1fr;
+  }
+}
+
 @keyframes changeColor {
   0% {
     fill: #e21e80;
