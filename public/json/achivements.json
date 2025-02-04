@@ -1,0 +1,65 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "title": "INTERNSHIP",
+        "image": "img/achivements1.png",
+        "link":"https://drive.google.com/file/d/1uGLrUtJqRMlaMkvK3zOF02OC5qcq5jwi/view?usp=sharing"
+      },
+      {
+        "id": 2,
+        "title": "INTERNSHIP",
+        "image": "img/achivements2.png",
+        "link":"https://drive.google.com/file/d/1s9HIPH89xZ585pbE1Xh44CBy7EN9zeBn/view?usp=drive_link"
+      },
+      {
+        "id": 3,
+        "title": "DICODING",
+        "image": "img/achivements3.png",
+        "link":"https://www.dicoding.com/certificates/1RXY2DY51XVM"
+      },
+      {
+        "id": 4,
+        "title": "DICODING",
+        "image": "img/achivements4.png",
+        "link":"https://www.dicoding.com/certificates/N9ZOYLY26PG5"
+      },
+      {
+        "id": 5,
+        "title": "DICODING",
+        "image": "img/achivements5.png",
+        "link":"https://www.dicoding.com/certificates/QLZ9V0NV9X5D"
+      },
+      {
+        "id": 6,
+        "title": "DICODING",
+        "image": "img/achivements6.png",
+        "link":"https://www.dicoding.com/certificates/JMZVEGEN3PN9"
+      },
+      {
+        "id": 7,
+        "title": "DICODING",
+        "image": "img/achivements7.png",
+        "link":"https://www.dicoding.com/certificates/KEXLY5JK4ZG2"
+      },
+      {
+        "id": 8,
+        "title": "LKSN",
+        "image": "img/achivements8.jpg",
+        "link":"https://drive.google.com/file/d/1ncylFakMhZ54HlFFLd6QR_UMNhbj8LIk/view?usp=drive_link"
+      },
+      {
+        "id": 9,
+        "title": "LKSN",
+        "image": "img/achivements9.png",
+        "link":"https://drive.google.com/file/d/1g7tFgewjVgLZL_oM3_bIxb58Y9x8CZ7r/view?usp=drive_link"
+      },
+      {
+        "id": 10,
+        "title": "LKSN",
+        "image": "img/achivements10.png",
+        "link":"https://drive.google.com/file/d/1JZ30Kek5hJE8iY6KqetZfkpg0UoGZnVo/view?usp=drive_link"
+      }
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "PRIMAKARA UNIVERSITY",
+            "as": "Computer Science",
+            "location": "Denpasar, Bali",
+            "content": "Leveraging my vocational school experiences and achievements, I was awarded a scholarship to attend my desired university. Here, I have significantly expanded my programming knowledge.",
+            "image": "img/primakara.png"
+        },
+        {
+            "id": 2,
+            "title": "SMKN 1 DENPASAR",
+            "as": "Software Engineering",
+            "location": "Denpasar, Bali",
+            "content": "This was my first exposure to programming. I gained basic knowledge in HTML, CSS, JavaScript, and PHP. I once developed a website for selecting the OSIS chairman of SMKN 1 Denpasar",
+            "image": "img/smkn1dps.png"
+        }
+    ]
+}
